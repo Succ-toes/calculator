@@ -1,4 +1,4 @@
-const CACHE_NAME = 'v1.2.2';
+const CACHE_NAME = 'v1.3.0';
 
 var urlsToCache = [
 	'index.html',
@@ -32,5 +32,6 @@ self.addEventListener('fetch', function(event) {
 		.then(function(response) {
 			return response || fetch(event.request);
 		})
+
 	);
 });
