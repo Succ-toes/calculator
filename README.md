@@ -7,6 +7,10 @@ A very simple calculator, built as a Progressive Web App.
 - list features here
 
 ### Changelog
+**Version  1.2.2**
+
+- fixed folder bug
+
 **Version 1.2.1**
 
 - changed font family of Display
